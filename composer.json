@@ -1,0 +1,32 @@
+{
+    "name": "d52b8/telegram-bot",
+    "description": "Simple Telegram Bot",
+    "keywords": [
+        "telegram",
+        "bot"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "d52b8",
+            "email": "d52b8@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ext-curl": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "d52b8\\telegram\\": "lib/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit test"
+    }
+}
